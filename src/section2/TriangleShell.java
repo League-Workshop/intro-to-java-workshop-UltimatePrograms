@@ -17,10 +17,10 @@ public class TriangleShell {
 		bb.hide();
 
 		// 4. make a variable to hold the length of the triangle and set it to 50
-		int tri = 50;
+		int tri = 1;
 
 		// 7. Use a for loop to repeat steps #9 to #10, 60 times
-		for (int i = 0; i < 60; i++) {
+		for (int i = 0; i < 5000; i++) {
 			// 9. Change the color of the pen to a random color
 			bb.setRandomPenColor();
 			// 8. Increase the length variable by 10
@@ -30,7 +30,7 @@ public class TriangleShell {
 			drawTriangle(tri);
 
 			// 10. Turn the robot 6 degrees to the right
-			bb.turn(6);
+			bb.turn(4);
 		}
 	}
 
